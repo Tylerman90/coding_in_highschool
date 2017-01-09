@@ -1,0 +1,50 @@
+.pic1 {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+.pic2 {
+	border-radius: 50%;
+	width: 135px;
+	height: 135px;
+}
+.snap {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.container2 {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.paypal_btn{
+
+display: inline-block;
+
+font-family: inherit;
+
+font-size: 14px;
+
+font-weight: bold;
+
+color: #fff;
+
+text-align: center;
+
+padding: 10px 14px;
+
+margin: 0;
+
+background: #ff6600;
+
+border: 0;
+
+cursor: pointer;
+
+outline: none;
+}
+.paypal_btn:hover{ 
+	background: #e05c04; 
+}
