@@ -6,35 +6,63 @@
 
     /* Set a specific height */
     height: 500px; 
-   	width: 100%;
-   	margin: 0px;
+   
     
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-	z-index: 1
-	padding: 0px;
-}
+	}
+.parallax2{
+    /* The image used */
+    background-image: url("assets/images/programming.jpg" );
+
+   
+
+    /* Set a specific height */
+    height: 400px; 
+   
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+
+
 .box{
-	text-align: center;
-	width: 200px;
-	height: 200px;
-	z-index: 0;
+	
+	width: 400px;
+	height: 400px;
 	color: white;
 
 
 }
-.col-md-4{
-	height: 400px;
-	background-color: black;
-	width: 100%;
-}
+
 h1{
 	text-align: center;
 	margin-top: 80px;
 	margin-bottom: 20px;
 	font-family: 'Passion One', cursive;
 
+}
+iframe{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h3{
+	margin-left: 80px;
+
+}
+p{
+	margin-top: 100px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+
+}
+.donation{
+	margin-top: 150px !important;
 }
