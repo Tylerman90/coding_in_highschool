@@ -1,0 +1,57 @@
+body {
+	background-image: url("images/pic7.jpg");
+	width: 100%;
+}
+
+img {
+    height: 400px
+    width: auto; /*maintain aspect ratio*/
+    max-width: 400px;
+    border: 25px inset #75b2dd;
+    margin-left: 300px;
+    margin-top: 50px;
+	
+}
+
+p {
+	text-indent: 25px;
+  	animation-duration: 2s;
+  	animation-delay: 2s;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+ul {
+  	animation-duration: 2s;
+  	animation-delay: 2s;
+}
+
+img {
+  	animation-duration: 2s;
+  	animation-delay: 2s;
+}
+
+.col-md-4 {
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	
+}
+
+.bio {margin-left: 50px;
+}
+
+.pic1 {
+	height: 200px;
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+.pic2 {
+	height: 200px;
+	width: 200px;
+}
+
+.text-muted {
+	margin-left: 15px;
+}

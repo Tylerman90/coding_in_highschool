@@ -1,0 +1,17 @@
+p {
+	animation-name: slidein;
+	animation-duration: 3s;
+}
+
+@keyframes slidein {
+	from {
+		margin: 50px;
+		width: 300px;
+		background-color: red;
+		opacity: 1;
+}
+
+to {
+	opacity: 0.5;
+	}
+}

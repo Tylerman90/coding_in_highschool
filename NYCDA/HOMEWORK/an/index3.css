@@ -1,0 +1,47 @@
+body {
+	background-image: url("images/pic7.jpg");
+}
+
+img.circle {
+	border-radius: 50%;
+	border: 2px solid;
+}
+div {
+  animation-duration: 1s;
+  animation-delay: .60s;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+.bio {text-align: center;
+}
+
+.pic1 {
+	height: 200px;
+	width: 200px;
+	margin: 5px;
+	border-radius: 50%;
+}
+
+.pic2 {
+	height: 200px;
+	width: 200px;
+	margin: 5px;
+	border-radius: 50%;
+}
+.snap {
+	height: 200px;
+	width: 200px;
+	margin: 5px;
+	border-radius: 50%;
+}
+
+.text-muted {
+	margin-left: 15px;
+}
+
+.col-md-4 {
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}

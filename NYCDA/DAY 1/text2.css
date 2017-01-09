@@ -1,0 +1,21 @@
+.column3 {
+	padding: 50px;
+	margin: 0 auto;
+	width: 500px;
+	float: left;
+}
+.column4 {
+	padding: 50px;
+	margin: 0 auto;
+	width: 500px;
+	float: left;
+}
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	height: 1000px;
+}
+
+.headline {
+	text-align: center;
+}

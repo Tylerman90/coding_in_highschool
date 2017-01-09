@@ -1,0 +1,62 @@
+body {
+	background-image: url("images/pic7.jpg");
+}
+.animated fadeIn {
+	width: 300px;
+	height: 400px;
+	
+}
+
+
+img {
+	border: 2px solid;
+	border-radius: 10%;
+	animation-duration: 1s;
+	animation-delay: 2s;
+}
+
+.col-md-4 {
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	
+}
+
+.bio {
+	text-align: center;
+}
+
+h1 {
+	font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+	text-align: center;
+
+  	animation-duration: 3s;
+  	animation-delay: 3s;
+}
+
+h2 {
+	animation-duration: 5s;
+  	animation-delay: 4s;
+}
+
+h3 {
+	font-size: 36px;
+}
+p {
+	animation-duration: 7s;
+  	animation-delay: 5s;
+}
+
+.pic1 {
+	height: 200px;
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+.pic2 {
+	height: 200px;
+	width: 200px;
+}
+
+.text-muted {
+	margin-left: 15px;
+
+}

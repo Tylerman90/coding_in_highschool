@@ -1,0 +1,50 @@
+body {
+	background-color: lightgray;
+}
+
+ul {
+	font-family: Arial;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 80px;
+	background-color: #f1f1f1;
+	border: 1px solid;
+	position: fixed; /* Make it stick, even on scroll */
+	overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+	display: block;
+	color: blue;
+	padding: 10px 15px;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+}
+
+/* Change link color on hover */
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+.active {
+	background-color: #4CAF50;
+	color: white;
+
+}
+
+h1 {
+	margin-left: 100px;
+}
+
+p {
+	margin-left: 100px;
+
+}
+
+.container {
+	float: left;
+	width: 50%;
+	
+}
