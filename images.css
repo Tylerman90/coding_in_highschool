@@ -1,0 +1,71 @@
+body {
+	animation-name: fadein;
+	animation-duration: 1s;
+}
+
+@keyframes fadein {
+
+	from{
+		opacity: 0
+	}
+
+
+	to {
+		opacity: 1
+	}
+}
+
+h1 {
+	padding-top: 30px;
+}
+
+.parallax { 
+  /* The image used */
+  background-image: url("assets/images/keyboard.jpg");
+
+  /*Set a specific height */
+  height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+ padding: 20px 200px;
+ font-size: 50px;
+ font-family: serif;
+ color: blue;
+}
+
+.parallax2 { 
+  /* The image used */
+  background-image: url("assets/images/students2.jpg");
+
+  /*Set a specific height */
+  height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 { 
+  /* The image used */
+  background-image: url("assets/images/students1.jpg");
+
+  /*Set a specific height */
+  height: 1000px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
