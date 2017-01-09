@@ -1,0 +1,40 @@
+.parallax { 
+    /* The image used */
+    background-image: url("assets/images/code-parralax.jpg" );
+
+   
+
+    /* Set a specific height */
+    height: 500px; 
+   	width: 100%;
+   	margin: 0px;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	z-index: 1
+	padding: 0px;
+}
+.box{
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	z-index: 0;
+	color: white;
+
+
+}
+.col-md-4{
+	height: 400px;
+	background-color: black;
+	width: 100%;
+}
+h1{
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 20px;
+	font-family: 'Passion One', cursive;
+
+}
