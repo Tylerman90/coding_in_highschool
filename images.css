@@ -16,56 +16,73 @@ body {
 }
 
 h1 {
+	color: white;
 	padding-top: 30px;
+	max-height: 60px;
 }
 
 .parallax { 
-  /* The image used */
-  background-image: url("assets/images/keyboard.jpg");
+	/* The image used */
+	background-image: url("assets/images/keyboard.jpg");
 
-  /*Set a specific height */
-  height: 1000px; 
+	/*Set a specific height */
+	height: 1000px; 
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 p {
- padding: 20px 200px;
- font-size: 50px;
- font-family: serif;
- color: blue;
+	padding: 20px 200px;
+	font-size: 50px;
+	font-family: serif;
+	color: blue;
 }
 
-.parallax2 { 
-  /* The image used */
-  background-image: url("assets/images/students2.jpg");
+/*.position {
+	position: absolute;
+	}*/
 
-  /*Set a specific height */
-  height: 1000px; 
+	.parallax2 { 
+		/* The image used */
+		background-image: url("assets/images/students2.jpg");
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+		/*Set a specific height */
+		height: 1000px; 
 
-.parallax3 { 
-  /* The image used */
-  background-image: url("assets/images/students1.jpg");
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 
-  /*Set a specific height */
-  height: 1000px; 
+	.parallax3 { 
+		/* The image used */
+		background-image: url("assets/images/students1.jpg");
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+		/*Set a specific height */
+		height: 1000px; 
 
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.text-box {
+		border: 5px solid black;
+		margin: 200px auto;
+		max-width: 100%;
+		opacity: 0.5;
+		color: white;
+		background-color: grey;
+		font-size: 100px;
+		text-align: center;
+	}
 
 
